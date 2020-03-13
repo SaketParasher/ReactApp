@@ -1,0 +1,13 @@
+
+/*
+* ****  COMPONENTS LIFECYCLE :-  
+*/
+
+-> Only availbale in Class-Based Components 
+
+1) Constructor
+        :- It is default in ES6 classes and it gets props as argument. It Should be used to set up the State of the class and Should
+           not be used for any side effects like Http calls, Saving Data etc.
+
+2) getDerivedStateFromProps( props, state ) 
+        :- 
